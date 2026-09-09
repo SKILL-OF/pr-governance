@@ -1,0 +1,22 @@
+{
+  "name": "@pfm/pr-governance",
+  "version": "0.1.0",
+  "description": "PFM PR governance machinery: deterministic PR readiness verifier + PreToolUse gate hook, parameterized for multi-repo use",
+  "main": "lib/index.js",
+  "bin": {
+    "verify-pr": "bin/verify-pr.js"
+  },
+  "scripts": {
+    "test": "node bin/verify-pr.js --help 2>&1 || true"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": ["pfm", "pr-governance", "verify-pr", "gate-pr-merge", "github"],
+  "author": "PlayFieldMultiplier",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SKILL-OF/pr-governance"
+  }
+}
